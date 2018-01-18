@@ -1,15 +1,38 @@
-#tdtop{
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+}
+
+div#body {
+	background-color: white;
+	overflow: hidden;
+}
+
+div#header {
+	overflow: hidden;
+	background-color: #132851;
+	color: white;
+}
+
+h1 {
+    text-align: center;
 	font-size:3em;
-	color:#585858;
+	color:#7f9ad1;
 }
-#top{
-	margin-left:20px;
+
+h3 {
+    font-style:oblique;
 }
+
 a.tooltips {
 	position: relative;
 	display: inline;
 	text-decoration:none; 
 }
+
 a.tooltips span {
 	position: relative;
 	width: 140px;
@@ -21,6 +44,7 @@ a.tooltips span {
 	display: none;
 	border-radius: 6px;
 }
+
 a.tooltips span:after {
 	content: '';
 	position: relative;
@@ -33,18 +57,22 @@ a.tooltips span:after {
 	border-right: 8px solid transparent;
 	border-left: 8px solid transparent;
 }
+
 a:focus.tooltips span {
 	display: block;
 }
+
 span.top{
 	position:relative;
 	top:-5px;
 	z-index:1;
 }
+
 span.right{
 	position:relative;
 	right:5px;
 }
+
 span.bottom{
 	position:relative;
 	bottom:15px;
