@@ -1,27 +1,30 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<head>
-    <title>Text Tree</title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		
+		<link rel="./test.css" type="text/css" rel="stylesheet" />
 
-<body>
-    <h1>Big data</h1>
+	<script language="javascript">
+	function word(){
+		var spanvalue = document.getElementById("click");		
+		spanvalue.innerHTML = "<span class='right' id='hang' title='관련도 : 싹싹하다, 상냥하다 : 관련도 90%' style='CURSOR:hand;'>상냥하다</span> <span class='top' id='happy' title='관련도 : 싹싹하다, 나긋나긋하다 : 관련도 90%' style='CURSOR:hand;'>나긋나긋하다</span>";
+		
+	}
+	</script>
 
-    <hr />
-
-    <p>
-        Big data is data sets that are so voluminous and complex that traditional data processing application software are inadequate to deal with them.
-        Big data challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating and information privacy.
-        There are three dimensions to big data known as Volume, Variety and Velocity.
-
-        Lately, the term "big data" tends to refer to the use of predictive analytics, user behavior analytics, or certain other advanced data analytics methods that extract value from data,
-        and seldom to a particular size of data set. "There is little doubt that the quantities of data now available are indeed large, but that��s not the most relevant characteristic of this
-        new data ecosystem."
-        Analysis of data sets can find new correlations to "spot business trends, prevent diseases, combat crime and so on."
-        Scientists, business executives, practitioners of medicine, advertising and governments alike regularly meet difficulties with large data-sets in areas including Internet search, 
-        fintech, urban informatics, and business informatics. Scientists encounter limitations in e-Science work, including meteorology, genomics, connectomics, complex physics simulations,
-        biology and environmental research.
-    </p>
-
-</body>
+	</head>
+	<body>
+		<form name="form" method="post">
+ 		<div>
+		<table id="top" border="0" width="1000" height="100" cellpadding="0" cellspacing="0">
+  		<tr>
+		<td id="tdtop" style="border-color:white"> Test </td>
+		</tr>
+		</table>
+		<hr border-color="gray";>
+		선술집 앞을 지나갈 때, 친구 치삼이가 한잔 걸치고 나오는 게 아닌가. 붙이는 말씨도 연하고 <a class="tooltips" id="click" href="javascript:void(0)" title="연관 단어 보기" onclick="word()">싹싹했다.</a> 창자가 주린 탓에 미꾸리 국과 데운 막걸리를 거푸거푸 마셔댔다.
+		</div>
+		</form>
+	</body>
 </html>
